@@ -109,8 +109,13 @@ input, textarea, select{color:#333; outline:none; font-size:1.6em; vertical-alig
 .MsoNormalTable th b{color:#fff;}
 
 .list_item{}
-strong{font-weight:normal; float:left; width:60px;}
-
+strong{font-weight:bold; float:left; width:60px;}
+a strong, a b{
+	font-weight:normal;
+}
+ul li a span, p a, p a:visited {
+    font-weight: bold;
+}
 h2{
 	color: #1A1E23 !important;
 	font-size: 40px;
